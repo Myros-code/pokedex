@@ -16,7 +16,7 @@ class PokeApi {
         this.POKE_CHUNK = `http://pokeapi.co/api/v1/pokemon/?limit=`;
         this.SERVER = 'http://pokeapi.co/api/v1';
         this.ABILITIES = 'http://pokeapi.co/api/v1/type/?limit=999';
-        this.POKE_INFO = 'http://pokeapi.co/api/v1/pokemon';
+        this.POKE_INFO = 'https://pokeapi.co/api/v1/pokemon';
         this.POKE_COLOR = 'http://pokeapi.co/api/v2/pokemon-color'
         this.ABILITY = 'http://pokeapi.co/api/v2/ability/'
         this.POKE_IMG = `http://assets.pokemon.com/assets/cms2/img/pokedex/full`
