@@ -13,13 +13,13 @@ class PokeApi {
     // ------------------------------ create constructor -------------------------------
     constructor() {
         this.CHUNKLOAD = 12;
-        this.POKE_CHUNK = `https://pokeapi.co/api/v1/pokemon/?limit=`;
-        this.SERVER = 'https://pokeapi.co/api/v1';
+        this.POKE_CHUNK = `http://pokeapi.co/api/v1/pokemon/?limit=`;
+        this.SERVER = 'http://pokeapi.co/api/v1';
         this.ABILITIES = 'http://pokeapi.co/api/v1/type/?limit=999';
         this.POKE_INFO = 'http://pokeapi.co/api/v1/pokemon';
-        this.POKE_COLOR = 'https://pokeapi.co/api/v2/pokemon-color'
-        this.ABILITY = 'https://pokeapi.co/api/v2/ability/'
-        this.POKE_IMG = `https://assets.pokemon.com/assets/cms2/img/pokedex/full`
+        this.POKE_COLOR = 'http://pokeapi.co/api/v2/pokemon-color'
+        this.ABILITY = 'http://pokeapi.co/api/v2/ability/'
+        this.POKE_IMG = `http://assets.pokemon.com/assets/cms2/img/pokedex/full`
     }
 
 
