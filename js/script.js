@@ -13,7 +13,7 @@ class PokeApi {
     // ------------------------------ create constructor -------------------------------
     constructor() {
         this.CHUNKLOAD = 12;
-        this.POKE_CHUNK = `http://pokeapi.co/api/v1/pokemon/?limit=`;
+        this.POKE_CHUNK = `https://pokeapi.co/api/v1/pokemon/?limit=`;
         this.SERVER = 'https://pokeapi.co/api/v1';
         this.ABILITIES = 'http://pokeapi.co/api/v1/type/?limit=999';
         this.POKE_INFO = 'http://pokeapi.co/api/v1/pokemon';
